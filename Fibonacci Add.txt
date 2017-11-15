@@ -1,0 +1,34 @@
+function fibonacci(input) {
+    var a = 0,b = 1;
+	var c = [0,1];
+    var result = 0;
+	for(var i = 3; i< input ;i++) {
+		var d = a + b;
+		c.push(d);
+		a = b;
+		b = d;
+	}
+    console.log(c);
+	for(var k = 0; k<c.length; k++) {
+      result += c[k]
+    }
+    return console.log(result);
+}
+
+fibonacci(9)
+
+//0,1,1,2,3,5,8
+
+function fibonacci(input) {
+    var result = 0, count = 0;actualResult = 0;
+    var a = 0, b = 1;var c= [];
+	while(input>=a) {
+		c.push(a);
+      	var d = a+b; 
+		a = b;
+		b  = d;
+    }
+    return console.log(c);
+}
+
+fibonacci(55);

@@ -1,0 +1,1 @@
+A small program in javascript to find the sum of fibonacci series. Two ways.
