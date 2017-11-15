@@ -17,7 +17,7 @@ function fibonacci(input) {
 
 fibonacci(9);
 
-//0,1,1,2,3,5,8
+//0,1,1,2,3,5 = 12;
 
 function fibonacciRepeat(input) {
   let result = 0, count = 0;
